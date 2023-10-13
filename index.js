@@ -6,7 +6,7 @@ function rollDice() {
     img1.setAttribute("src", randomImage1);
 
     var randomNumber2 = Math.floor(Math.random() * 6) + 1;
-    var randomImage2 = "images/dice" + randomNumber2 + ".png";
+    var randomImage2 = "dice" + randomNumber2 + ".png";
   
     var img2 = document.getElementById("imgy");
     img2.setAttribute("src", randomImage2);
